@@ -13,41 +13,6 @@ A console-based application for booking live shows with time slot management, wa
 - **Trending Shows**: Track most booked shows
 - **User Booking History**: View all bookings for a user
 
-## Project Structure
-
-```
-src/main/java/com/LiveShowBookingSystem/
-├── constant/           # Application constants
-├── controller/         # Controllers for handling requests
-├── model/             # Data models
-├── pojo/              # Plain Old Java Objects
-├── repository/        # Data access layer
-├── service/           # Business logic layer
-└── utils/             # Utility classes
-```
-
-## How to Run
-
-### Option 1: Interactive Console Application
-```bash
-# Compile the application
-javac -cp src\main\java -d target\classes src\main\java\com\LiveShowBookingSystem\**\*.java
-
-# Run the main application
-java -cp target\classes com.LiveShowBookingSystem.LiveShowBookingSystemApplication
-```
-
-### Option 2: Run Test Demo
-```bash
-# Compile test runner
-javac -cp target\classes TestRunner.java
-
-# Run test demo
-java -cp target\classes;. TestRunner
-```
-
-## Usage Examples
-
 ### Register a Show
 ```
 Enter your choice: 1
